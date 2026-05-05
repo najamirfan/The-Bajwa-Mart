@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import Link from 'next/link'; // <--- THIS WAS LIKELY MISSING
+import Link from 'next/link'; // <--- THIS WAS LIKELY MISSING ok
 
 export default function AboutPage() {
   return (
