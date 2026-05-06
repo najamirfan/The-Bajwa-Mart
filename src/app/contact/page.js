@@ -54,8 +54,8 @@ export default function ContactPage() {
             <div>
               <h3 className="text-brand-gold uppercase tracking-widest text-[10px] md:text-sm mb-2">Office</h3>
               <p className="text-brand-cream/70 text-sm md:text-base leading-relaxed">
-                123 Luxury Lane, <br />
-                New York, NY 10001
+                1501 South Greeley Hwy Ste C #1328 <br />
+                Cheyenne, WY 82007
               </p>
             </div>
             <div className="pt-8 border-t border-brand-gold/10">

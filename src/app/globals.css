@@ -1,13 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  /* Ensure these are exactly as you want to call them in HTML */
   --color-brand-gold: #c5a059;
   --color-brand-gold-muted: #a38445;
   --color-brand-black: #0a0a0a;
   --color-brand-cream: #f5f5f5;
   
-  /* Make sure Playfair is actually loaded in your layout.js */
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 }
@@ -19,18 +17,13 @@
     @apply antialiased;
   }
 
-  /* GLOBAL MOBILE SCALING: Reduces massive gaps on phones */
-  section {
+  /* Keeps the luxury spacing for other pages */
+  section:not(.tight-layout) {
     @apply py-12 md:py-24 lg:py-32;
   }
 
-  /* HEADLINE SCALING: Keeps titles elegant and one-line on small screens */
   h1 {
-    @apply text-3xl md:text-6xl lg:text-7xl leading-tight tracking-tight;
-  }
-
-  h2 {
-    @apply text-2xl md:text-4xl lg:text-5xl leading-snug;
+    @apply text-3xl md:text-6xl lg:text-7xl leading-tight tracking-tight font-serif;
   }
 }
 
@@ -38,13 +31,16 @@
   .btn-gold {
     background-color: var(--color-brand-gold);
     color: black;
-    /* Adjusted padding for a sleeker mobile button look */
-    @apply inline-block px-6 py-2.5 md:px-8 md:py-3 font-bold uppercase tracking-widest 
-           transition-all duration-300 cursor-pointer border-none text-[10px] md:text-xs;
+    @apply inline-block px-10 py-4 font-bold uppercase tracking-[0.2em] 
+           transition-all duration-500 cursor-pointer border-none text-[10px];
   }
   
   .btn-gold:hover {
-    background-color: var(--color-brand-gold-muted);
-    @apply scale-105;
+    background-color: #f5f5f5; /* Turns cream on hover for a high-end feel */
+    @apply tracking-[0.3em];
+  }
+
+  .brand-border {
+    @apply border-t border-brand-gold/10 pt-10 mt-10;
   }
 }
