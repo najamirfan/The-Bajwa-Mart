@@ -9,7 +9,7 @@ import { useCart } from '../context/CartContext';
 export default function Home() {
   const { cartCount } = useCart();
   const featuredGrid = products.slice(0, 4);
-  const spotlightProduct = products.find(p => p.id === "oud-royale");
+const spotlightProduct = products.find(p => p.id === "B08BZ35L7T");
 
   return (
     <main className="min-h-screen bg-brand-black text-brand-cream">

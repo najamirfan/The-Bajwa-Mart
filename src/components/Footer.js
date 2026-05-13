@@ -81,6 +81,7 @@ export default function Footer() {
             <p className="text-brand-cream/40 text-[9px] md:text-[10px] uppercase tracking-widest leading-relaxed">
               Subscribe to receive updates on <br className="hidden md:block" /> new collections and exclusive offers.
             </p>
+
           </div>
         </div>
 

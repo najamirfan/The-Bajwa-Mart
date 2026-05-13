@@ -1,83 +1,83 @@
 // src/data/products.js
 export const products = [
-  {
-    id: "oud-royale",
-    name: "Oud Royale",
+    {
+    id: "B08BZ35L7T",
+    name: "PARFUMS DE MARLY Layton Exclusif",
     price: "120",
     category: "Luxury Oud",
-    collection: "heritage", // Added
-    description: "Our signature scent. A deep, smoky profile balanced with amber and rare agarwood resins.",
-    notes: "Agarwood, Amber, Spices",
-    image: "/products/oud-royale.jpg"
+    collection: "luminous",
+    description: "Blended with the highest quality of rare and luxurious ingredients sourced from around the world.",
+    notes: "Bergamot, Grapefruit, Apple, Guaiac Wood, Oud",
+    image: "/products/B08BZ35L7T.jpg"
   },
   {
-    id: "midnight-rose",
-    name: "Midnight Rose",
-    price: "95",
-    category: "Floral",
-    collection: "noir", // Added
-    description: "A mysterious floral blend that captures the essence of a moonlit garden in full bloom.",
-    notes: "Damask Rose, Patchouli, Pink Pepper",
-    image: "/products/midnight-rose.jpg"
-  },
-  {
-    id: "desert-spice",
-    name: "Desert Spice",
-    price: "110",
-    category: "Oriental",
-    collection: "heritage", // Added
-    description: "An exotic journey through golden sands, featuring warm, earthy undertones.",
-    notes: "Saffron, Cardamom, Sandalwood",
-    image: "/products/desert-spice.jpg"
-  },
-  {
-    id: "azure-mist",
-    name: "Azure Mist",
-    price: "85",
-    category: "Fresh",
-    collection: "luminous", // Added
-    description: "A clean, aquatic fragrance that evokes the crisp air of the Mediterranean coast.",
-    notes: "Sea Salt, Bergamot, White Musk",
-    image: "/products/azure-mist.jpg"
-  },
-  {
-    id: "midnight-rose2",
-    name: "Midnight Rose Noir",
-    price: "95",
-    category: "Floral",
-    collection: "noir", // Added
-    description: "A mysterious floral blend that captures the essence of a moonlit garden in full bloom.",
-    notes: "Damask Rose, Patchouli, Pink Pepper",
-    image: "/products/midnight-rose.jpg"
-  },
-  {
-    id: "desert-spice2",
-    name: "Desert Spice Gold",
-    price: "110",
-    category: "Oriental",
-    collection: "heritage", // Added
-    description: "An exotic journey through golden sands, featuring warm, earthy undertones.",
-    notes: "Saffron, Cardamom, Sandalwood",
-    image: "/products/desert-spice.jpg"
-  },
-  {
-    id: "desert-spice3",
-    name: "Desert Spice Intense",
-    price: "110",
-    category: "Oriental",
-    collection: "noir", // Added (Intense version fits Noir)
-    description: "An exotic journey through golden sands, featuring warm, earthy undertones.",
-    notes: "Saffron, Cardamom, Sandalwood",
-    image: "/products/desert-spice.jpg"
-  },
-  {
-    id: "oud-royale2",
-    name: "Oud Royale Silver",
+    id: "177548324",
+    name: "Viktor & Rolf Flowerbomb 3.4oz Women's Eau de Parfum",
     price: "120",
-    category: "Luxury Oud",
-    collection: "luminous", // Added (Silver/Fresh version fits Luminous)
-    description: "A lighter, more ozonic take on our signature Oud.",
-    notes: "Agarwood, Amber, Spices",
-    image: "/products/oud-royale.jpg"
+    category: "Floral",
+    collection: "luminous",
+    description: "An explosive floral bouquet. An addiction of flowers that leave a trail of transformation.",
+    notes: "Cattleya Orchid, Freesia, Centifolia Rose, Patchouli",
+    image: "/products/177548324.jpg"
+  },
+  {
+    id: "B0DBRB5VZ2", 
+    name: "Armani Beauty - Acqua di Giò - Parfum",
+    price: "120",
+    category: "Marine",
+    collection: "luminous",
+    description: "The Acqua di Giò Parfum adds intense freshness to the collection, distinguished by incense notes and a marine scent.",
+    notes: "Bergamot, Ginger, Marine, Geranium, Rosemary, Clary Sage, Patchouli",
+    image: "/products/B0DBRB5VZ2.jpg"
+  },
+  {
+    id: "B09VN62HF3", 
+    name: "Azzaro The Most Wanted Parfum",
+    price: "120",
+    category: "Spicy",
+    collection: "luminous",
+    description: "Created for men who like to make an impression, this is the fragrance of a daring man with an infinite power of attraction.",
+    notes: "Bourbon Vanilla, Incandescent Woods Accord, Red Ginger, Spicy Fougère", 
+    image: "/products/B09VN62HF3.jpg"
+  },
+  {
+    id: "B08ZFKB8ZK", 
+    name: "Azzaro The Most Wanted Eau de Parfum Intense",
+    price: "120",
+    category: "Woody",
+    collection: "luminous",
+    description: "A woody and seductive men's cologne featuring ambery and spicy notes, perfect for date night.",
+    notes: "Amber Wood, Cardamom, Fougère Oriental Woody, Toffee Accord", 
+    image: "/products/B08ZFKB8ZK.jpg"
+  },
+  {
+    id: "B09TTFM6H1", 
+    name: "Jean Paul Gaultier Le Beau Le Parfum Intense",
+    price: "120",
+    category: "Oriental Woody",
+    collection: "luminous",
+    description: "A more intense version of the original Le Beau, offering a powerful and addictive scent trail of sandalwood and Tonka bean.",
+    notes: "Coconut Wood, Tonka Bean, Sandalwood, Bergamot", 
+    image: "/products/B09TTFM6H1.jpg"
+  },
+  {
+    id: "B08WLB4CN4", 
+    name: "PARFUMS DE MARLY Delina La Rose Eau de Parfum",
+    price: "120",
+    category: "Luxury Floral",
+    collection: "luminous",
+    description: "A poetic bouquet of Turkish rose and transparent flowers, with a pear opening and a subtle base of softwood and white musk.",
+    notes: "Lychee, Pear, Bergamot, Turkish Rose, Peony, White Musk", 
+    image: "/products/B08WLB4CN4.jpg"
+  },
+  {
+    id: "B081QZH8CL", 
+    name: "Sauvage by Christian Dior Parfum",
+    price: "120",
+    category: "Fresh/Spicy",
+    collection: "luminous",
+    description: "A highly concentrated interpretation of Sauvage, melding extreme freshness with warm oriental tones.",
+    notes: "Mandarin, Tonka Bean, Sandalwood, Bergamot", 
+    image: "/products/B081QZH8CL.jpg"
   }
 ];
